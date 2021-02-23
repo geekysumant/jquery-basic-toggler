@@ -1,11 +1,28 @@
-div {
+* {
+  transition: all 0.5s;
+}
+#div1 {
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  margin: 50px auto;
+}
+#circle {
+  background-color: black;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+h1 {
+  font-size: 5rem;
+  margin: 100px auto;
   text-align: center;
 }
-input[type="checkbox"] {
-  width: 50px;
-  height: 50px;
-  color: red;
+.color-white {
+  color: white;
 }
-p {
-  text-align: center;
+.bg-color-black {
+  background-color: black;
 }
